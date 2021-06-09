@@ -1,0 +1,62 @@
+.winner {
+  color: green;
+}
+
+.loser {
+  color: red;
+}
+
+#playto {
+  margin-bottom: 20px;
+}
+
+.btn {
+  border: 1px solid white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+body {
+  color: white;
+  background-color: #2f97c1;
+}
+
+#card-img {
+  border-radius: 15px 15px 0 0;
+}
+
+#cardSelector {
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #587291;
+}
+
+.card-text {
+  padding-bottom: 5px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#display-div {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#p1Button {
+  margin-right: 10px;
+}
+
+#p2Button {
+  margin-right: 10px;
+}
+
+#resetButton {
+  margin-right: 10px;
+}

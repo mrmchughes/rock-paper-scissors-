@@ -8,12 +8,19 @@
   </head>
   <body>
     <p>Hello, player! You are about to play Rocks Paper Scissors against the computer.</p>
-    <p>You will play five rounds. Make your choice each round with the buttons below</p>
+    <p>You will play until you or the computer reaches 5 wins. Make your choice each round with the buttons below</p>
 
-    <button type="button" value="Rock">Rock</button>
-    <button type="button" value="Paper">Paper</button>
-    <button type="button" value="Scissors">Scissors</button>
+    <input type="button" class = "buttons" value="Rock">
+    <input type="button" class = "buttons" value="Paper">
+    <input type="button" class = "buttons"value="Scissors">
+    <input type="button" value="Reset" id = "reset">
     
+    <div id="display-div">
+      <span id="playerDisplay">0</span> to <span id="computerDisplay">0</span>
+    </div>
+
+    <div id="result"></div>
+
     <script src="app.js"></script>
   </body>
 </html>
