@@ -11,8 +11,8 @@ const computer = {
 
 //sets buttons, sets winningScore, has game start//
 const buttons = document.querySelectorAll('.buttons');
-const resetButton = document.querySelector('#reset');
-const winningScore = 5;
+const resetButton = document.querySelector('#resetButton');
+const winningScore = 3;
 let isGameOver = false;
 
 
@@ -88,6 +88,8 @@ function playRound(playerSelection) {
     return
 };
 
+//in the future, I would like to add an img that displays the choice for both the player and the computer//
+
 
 //makes the button values work//
 buttons.forEach(button => {
@@ -107,4 +109,5 @@ function reset() {
         i.display.textContent = 0;
         i.display.classList.remove('winner', 'loser');
     }
+    document.getElementById('result').innerHTML = '';
 }
