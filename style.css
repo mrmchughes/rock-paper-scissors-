@@ -39,7 +39,7 @@ body {
 }
 
 #cardSelector {
-  margin-top: 25px;
+  margin-top: 20px;
   border: 1px solid black;
   background-color: #424b54;
 }
@@ -53,18 +53,18 @@ body {
 .card-title {
   text-align: center;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 #display-div {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  margin: 30px;
+  margin: 20px;
 }
 
 #resetButton {
-  margin: 30px;
+  margin: 25px;
 }
 
 #result {
